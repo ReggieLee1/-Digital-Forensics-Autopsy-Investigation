@@ -33,12 +33,28 @@ Followed standard DFIR process:
 
 ---
 
-## 🧬 Analysis Techniques
 
-### Keyword Search
+## 🔎 Analysis Techniques
 
-```text
-"bitcoin", "wallet", "confidential", "transfer"
+### 🔑 Keyword Searching
+Performed targeted keyword searches (e.g., "password", "crypto", "confidential") to identify sensitive files and potential insider threat activity.
+
+### 🕒 Timeline Analysis
+Analyzed file system timestamps (created, modified, accessed) to reconstruct user activity and identify suspicious behavior patterns.
+
+### 📂 File Recovery Analysis
+Recovered deleted files and examined their contents to uncover evidence of potential data exfiltration and unauthorized access.
+
+### 🧾 Metadata Analysis
+Reviewed file metadata (author, timestamps, file paths) to determine origin, ownership, and access history of critical artifacts.
+
+### 🌐 Browser & User Activity Analysis
+Investigated browser history and user artifacts to identify access to suspicious websites, including potential dark web or cryptocurrency-related activity.
+
+### 🔗 Correlation Analysis
+Correlated multiple artifacts (files, logs, timestamps) to build a cohesive narrative of the incident and validate findings.
+
+These techniques were used to support evidence-based conclusions and align findings with standard DFIR investigative practices.
 
 
 ## 🛠 Tools Used
