@@ -1,7 +1,4 @@
-
----
-
-# 🔥 2. Digital Forensics – Autopsy Investigation (ADVANCED)
+ Digital Forensics – Autopsy Investigation 
 
 ```markdown
 # Digital Forensics Investigation – Autopsy Disk Analysis
